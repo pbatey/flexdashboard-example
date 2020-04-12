@@ -21,7 +21,7 @@ Start the R console and install the flexdashboard package
     r
     install.packages("flexdashboard")
 
-Create a new flexcashboard R Markdown file from the R console
+Create a new flexdashboard R Markdown file from the R console
 
     rmarkdown::draft("index.Rmd", template = "flex_dashboard", package = "flexdashboard")
 
